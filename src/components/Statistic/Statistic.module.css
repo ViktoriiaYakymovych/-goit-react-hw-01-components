@@ -1,0 +1,26 @@
+.statistics {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    width: 400px;
+    box-shadow: rgba(36, 34, 34, 0.35) 0px 5px 15px;
+}
+
+.title {
+    padding: 20px;
+    color: gray;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: calc(100% / 5);
+    padding: 20px;
+    color: white;
+}
